@@ -84,7 +84,7 @@ void OGLWidget::initializeGL()
     m_Groups.last()->add(m_Groups.at(2));
     m_TransformObjects.append(m_Groups.last());
 
-    m_Groups.at(0)->add(m_Eye);
+    //m_Groups.at(0)->add(m_Eye);
 
     m_Timer.start(30, this);
 }
