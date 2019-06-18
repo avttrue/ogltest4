@@ -10,7 +10,7 @@ class QOpenGLFunctions;
 class Transformational
 {
 public:
-    virtual ~Transformational() = 0;
+    virtual ~Transformational();
 
     virtual void rotate(const QQuaternion &r) = 0; // вращение
     virtual void translate(const QVector3D &t) = 0; // перенос
